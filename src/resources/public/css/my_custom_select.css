@@ -58,7 +58,7 @@
     overflow-y: auto;
 }
 
-/*-----------------------------------------------------*/
+/*------------SCROLLBAR----------------------*/
 /* width */
 .select-items::-webkit-scrollbar {
     width: 5px;
@@ -80,7 +80,7 @@
 .select-items::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
-
+/*--------------------------------------------*/
 
 /*hide the items when the select box is closed:*/
 .select-hide {
