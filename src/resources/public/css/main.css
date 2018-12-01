@@ -9,12 +9,22 @@ a{
 
 body{
     background-color: #e6e6e6;
+    font-family: MS Sans Serif;
 }
 
 header{
     width: 100%;
-    height: 350px;
+    height: 150px;
     background-color: #2a2a2a;
+}
+
+.header-title{
+    width:900px;
+    height: 85px;
+    display: flex;
+    margin: auto;
+    color: white;
+    font-size: 30px;
 }
 
 nav{
@@ -34,20 +44,19 @@ nav{
 .nav-button {
     margin: 0;
     background-color:#b91616;
-    border-bottom:10px solid #971414;
+    border-bottom:5px solid #971414;
     display:inline-block;
     cursor:pointer;
     color:#ffffff;
-    font-size: 36px;
-    font-family: MS Sans Serif;
+    font-size: 26px;
     text-align: center;
-    line-height: 90px;
-    height: 90px;
+    line-height: 60px;
+    height: 60px;
     width: 180px;
 }
 .nav-button:hover {
     background-color:#c83131;
-    border-bottom:10px solid #ffb4b4;
+    border-bottom:5px solid #ffb4b4;
 }
 .nav-button:active {
     position:relative;
@@ -57,14 +66,13 @@ nav{
 .nav-button-active {
     margin: 0;
     background-color:#c83131;
-    border-bottom:10px solid #ffb4b4;
+    border-bottom:5px solid #ffb4b4;
     display:inline-block;
     color:#ffffff;
-    font-size: 36px;
-    font-family: MS Sans Serif;
+    font-size: 26px;
     text-align: center;
-    line-height: 90px;
-    height: 90px;
+    line-height: 60px;
+    height: 60px;
     width: 180px;
 }
 
@@ -79,8 +87,9 @@ nav{
 
 .short-news{
     background-color: white;
-    width: 800px;
-    height: 500px;
+    width: 760px;
+    height: 460px;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -89,12 +98,46 @@ nav{
 
 .long-news{
     background-color: white;
-    width: 800px;
-    height: 1000px;
+    width: 760px;
+    /*height: 960px;*/
+    height: fit-content;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
     box-shadow: 0 0 4px 0  #969696;
+}
+
+.news-title{
+    font-size:27px;
+    height: 30px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.news-image{
+    height: 280px;
+    margin-bottom: 20px;
+}
+
+.read-more{
+    color: #686868;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.short-news-text{
+    height: 90px;
+    font-size: 17px;
+    text-align: justify;
+}
+.long-news-text{
+    max-height: 590px;
+    font-size: 17px;
+    text-align: justify;
 }
 
 footer{
@@ -118,6 +161,5 @@ footer{
     width: 410px;
     height:160px;
     margin: auto;
-    font-family: MS Sans Serif;
 }
 
