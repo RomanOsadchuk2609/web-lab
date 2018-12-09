@@ -1,9 +1,9 @@
 /*the container must be positioned relative:*/
-.custom-select {
+.my-custom-select {
     position: relative;
     font-family: MS Sans Serif;
 }
-.custom-select select {
+.my-custom-select select {
     display: none; /*hide original SELECT element:*/
 }
 .select-selected {

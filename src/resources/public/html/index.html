@@ -3,106 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <title>Новини</title>
-    <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->
-    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/my_custom_select.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
     <header>
-        <div class="header-title">
-            <div style="width: 450px; padding-top: 10px;">
+        <div class="container header-title">
+            <div class="col-md-6" style="width:450px; padding-top: 5px;">
                 <span align="left">НАЙКРАЩІ УКРАЇНСЬКІ</span>
                 <span align="left">НОВИНИ</span>
             </div>
-            <div align="right" style="width: 450px">
-                <div align="left" class="custom-select" style="width: fit-content; font-size: 24px">
-                    <select>
-                        <option value="1">Вінниця</option>
-                        <option value="2">Дніпро</option>
-                        <option value="3">Донецьк</option>
-                        <option value="4">Житомир</option>
-                        <option value="5">Запоріжжя</option>
-                        <option value="6">Івано-Франківськ</option>
-                        <option value="7">Київ</option>
-                        <option value="8">Кропивницький</option>
-                        <option value="9">Луганськ</option>
-                        <option value="10">Луцьк</option>
-                        <option value="11">Львів</option>
-                        <option value="12">Миколаїв</option>
-                        <option value="13">Одеса</option>
-                        <option value="14">Полтава</option>
-                        <option value="15">Рівне</option>
-                        <option value="16">Суми</option>
-                        <option value="17">Тернопіль</option>
-                        <option value="18">Ужгород</option>
-                        <option value="19">Харків</option>
-                        <option value="20">Херсон</option>
-                        <option value="21">Хмельницький</option>
-                        <option value="22">Черкаси</option>
-                        <option value="23" selected="selected">Чернівці</option>
-                        <option value="24">Чернігів</option>
-                    </select>
-                </div>
-                <div style="height: -webkit-fill-available; width: fit-content; font-size: 16px; margin-right: 10px">
-                    <p>Субота</p>
-                    <p>01.12.208</p>
+            <div class="col-md-6"  style="width:450px;" align="right">
+                <select >
+                    <option value="1">Вінниця</option>
+                    <option value="2">Дніпро</option>
+                    <option value="3">Донецьк</option>
+                    <option value="4">Житомир</option>
+                    <option value="5">Запоріжжя</option>
+                    <option value="6">Івано-Франківськ</option>
+                    <option value="7">Київ</option>
+                    <option value="8">Кропивницький</option>
+                    <option value="9">Луганськ</option>
+                    <option value="10">Луцьк</option>
+                    <option value="11">Львів</option>
+                    <option value="12">Миколаїв</option>
+                    <option value="13">Одеса</option>
+                    <option value="14">Полтава</option>
+                    <option value="15">Рівне</option>
+                    <option value="16">Суми</option>
+                    <option value="17">Тернопіль</option>
+                    <option value="18">Ужгород</option>
+                    <option value="19">Харків</option>
+                    <option value="20">Херсон</option>
+                    <option value="21">Хмельницький</option>
+                    <option value="22">Черкаси</option>
+                    <option value="23" selected="selected">Чернівці</option>
+                    <option value="24">Чернігів</option>
+                </select>
+                <div style="color:white; width: fit-content; font-size: 16px; margin-right: 10px">
+                    <p style="margin: 0">Субота</p>
+                    <p style="margin: 0">01.12.208</p>
                 </div>
             </div>
         </div>
         <nav>
-            <div class="nav-buttons-background">
-                <a class="nav-button nav-button-active">Головне</a><a class="nav-button">Політика</a><a class="nav-button">Здоров'я</a><a class="nav-button">Культура</a><a class="nav-button">Освіта</a>
+            <div class="container nav-buttons-background" style="padding: 0;">
+                <a style="color: white" class="col-md-2 nav-button nav-button-active">Головне</a><a style="color: white" class="col-md-2 nav-button">Політика</a><a  style="color: white" class="col-md-2 nav-button">Здоров'я</a><a style="color: white" class="col-md-2 nav-button">Культура</a><a style="color: white" class="col-md-2 nav-button">Освіта</a><a style="color: white" class="col-md-2 nav-button">Спорт</a>
             </div>
         </nav>
     </header>
-    <div class="main-content">
+    <!--<div class="container">-->
+        <div class="container main-content">
 
-        <div class="short-news">
-            <p class="news-title">ПЕРЕВІЗНИКИ ХОЧУТЬ ПІДНЯТИ ТАРИФИ</p>
-            <img class="news-image" src="../img/first_news_image.png">
-            <p class="short-news-text"> &#9;Перевізники кажуть, що подорожчання пального має стати причиною чергового підвищення тарифу на проїзд у громадському транспорті Чернівців, розповів у програмі "Суть речей" на Радіо 10 директор Департаменту ЖКГ міськради Володимир Бешлей: Ми працюємо над цим. Транспортну модель потрібно розробляти і працювати над організацією руху. Ми працюємо...</p>
-            <p align="right" class="read-more">Читати більше</p>
-        </div>
+            <div align="center" class="col-md-12 short-news">
+                <p class="news-title">ПЕРЕВІЗНИКИ ХОЧУТЬ ПІДНЯТИ ТАРИФИ</p>
+                <img class="news-image" src="../img/first_news_image.png">
+                <p class="short-news-text"> Перевізники кажуть, що подорожчання пального має стати причиною чергового підвищення тарифу на проїзд у громадському транспорті Чернівців, розповів у програмі "Суть речей" на Радіо 10 директор Департаменту ЖКГ міськради Володимир Бешлей: Ми працюємо над цим. Транспортну модель потрібно розробляти і працювати над організацією руху. Ми працюємо...</p>
+                <div align="right">
+                    <span  class="read-more">Читати більше</span>
+                </div>
+            </div>
 
-        <div align="center" class="long-news">
-            <p class="news-title">ЧЕРНІВЦІ В РЕЙТИНГУ НАЙВІДПОВІДАЛЬНІШИХ ВОДІЇВ</p>
-            <img class="news-image" src="../img/secend_news_image.png">
-            <p class="long-news-text">
-                Чернівці опинилися на 16-му місці рейтингу міст України з найбільш відповідальними водіями.<br><br>
-                Про це свідчать результати дослідження "Рівень користування ременями безпеки серед водіїв в обласних центрах України", пише керівник Головного сервісного центру МВС Владислав Криклий на своїй сторінці у Facebook.<br><br>
-                Згідно з даними рейтингу, 2018 року в українських містах ременем безпеки користується всього 23% водіїв, що на 8% більше ніж роком раніше Опитання проводилось у 22 обласних центрах, а ще у Сєвєродонецьку і Маріуполі. Воно охопило 35 тисяч респондентів.<br><br>
-                Так, виявляється, що у середньому лише кожен п’ятий водій користується ременем безпеки. Відчутно вищий показник відповідальності у Києві – 53% автомобілістів віддають перевагу безпечним подорожам. У столиці кількість водіїв, які користуються ременями безпеки від 2017 року зросла також найбільше – на 15%.<br><br>
-                Загалом рейтинг міст України, де водії найбільше користуються ременями безпеки має такий вигляд:<br><br>
-                1. Київ – 53%,<br>
-                2. Житомир – 39%,<br>
-                3. Львів – 38%,<br>
-                4. Черкаси – 34%,<br>
-                5. Івано-Франківськ – 27%.<br><br>
-                Окремо у статистиці відзначаються шість міст, які подвоїли свої показники порівняно з 2017 роком – це Івано-Франківськ, Чернігів, Рівне, Тернопіль, Херсон і Чернівці. Останні опинилися на 16-тій позиції рейтингу міст з найвідповідальнішими водіями.
-            </p>
-            <p align="right" class="read-more read-less">Читати менше</p>
-        </div>
+            <div align="center" class="col-md-12 long-news">
+                <p class="news-title">ЧЕРНІВЦІ В РЕЙТИНГУ НАЙВІДПОВІДАЛЬНІШИХ ВОДІЇВ</p>
+                <img class="news-image" src="../img/secend_news_image.png">
+                <p class="long-news-text">
+                    Чернівці опинилися на 16-му місці рейтингу міст України з найбільш відповідальними водіями.<br><br>
+                    Про це свідчать результати дослідження "Рівень користування ременями безпеки серед водіїв в обласних центрах України", пише керівник Головного сервісного центру МВС Владислав Криклий на своїй сторінці у Facebook.<br><br>
+                    Згідно з даними рейтингу, 2018 року в українських містах ременем безпеки користується всього 23% водіїв, що на 8% більше ніж роком раніше Опитання проводилось у 22 обласних центрах, а ще у Сєвєродонецьку і Маріуполі. Воно охопило 35 тисяч респондентів.<br><br>
+                    Так, виявляється, що у середньому лише кожен п’ятий водій користується ременем безпеки. Відчутно вищий показник відповідальності у Києві – 53% автомобілістів віддають перевагу безпечним подорожам. У столиці кількість водіїв, які користуються ременями безпеки від 2017 року зросла також найбільше – на 15%.<br><br>
+                    Загалом рейтинг міст України, де водії найбільше користуються ременями безпеки має такий вигляд:<br><br>
+                    1. Київ – 53%,<br>
+                    2. Житомир – 39%,<br>
+                    3. Львів – 38%,<br>
+                    4. Черкаси – 34%,<br>
+                    5. Івано-Франківськ – 27%.<br><br>
+                    Окремо у статистиці відзначаються шість міст, які подвоїли свої показники порівняно з 2017 роком – це Івано-Франківськ, Чернігів, Рівне, Тернопіль, Херсон і Чернівці. Останні опинилися на 16-тій позиції рейтингу міст з найвідповідальнішими водіями.
+                </p>
+                <div align="right">
+                    <span class="read-more read-less">Читати менше</span>
+                </div>
+            </div>
 
-        <div align="center" class="short-news">
-            <p class="news-title">СНІГОВА НЕПОГОДА НА БУКОВИНІ</p>
-            <img class="news-image" src="../img/third_news_image.png">
-            <p class="short-news-text">Різке погіршення погодних умов завдало клопотів водіям автомобілів та пішоходам у Чернівецькій області. Так, за першу добу снігопаду щонайменше п’ять транспортних засобів перекинулись або злетіли із засніжених автомобільних трас. Так, на трасі "Чернівці–Хотин" вантажівка та позашляховик перекинулися в кювет. Згодом на автотрасі М-19 ще два транс...</p>
-            <p align="right" class="read-more">Читати більше</p>
-        </div>
+            <div align="center" class="col-md-12 short-news">
+                <p class="news-title">СНІГОВА НЕПОГОДА НА БУКОВИНІ</p>
+                <img class="news-image" src="../img/third_news_image.png">
+                <p class="short-news-text">Різке погіршення погодних умов завдало клопотів водіям автомобілів та пішоходам у Чернівецькій області. Так, за першу добу снігопаду щонайменше п’ять транспортних засобів перекинулись або злетіли із засніжених автомобільних трас. Так, на трасі "Чернівці–Хотин" вантажівка та позашляховик перекинулися в кювет. Згодом на автотрасі М-19 ще два транс...</p>
+                <div align="right">
+                    <span  class="read-more">Читати більше</span>
+                </div>
+            </div>
 
-        <div class="offer-news">
-            <p class="news-title">ЗАПРОПОНУЙ СВОЮ НОВИНУ</p>
-            <input placeholder="Назва (заголовок)"/>
-            <textarea placeholder="Опис"></textarea>
-            <input  placeholder="Посилання на джерело"/>
-            <div align="right">
-                <button class="offer-news-button">Надіслати</button>
+            <div align="center" class="col-md-12 offer-news">
+                <p class="news-title">ЗАПРОПОНУЙ СВОЮ НОВИНУ</p>
+                <input placeholder="Назва (заголовок)"/>
+                <textarea placeholder="Опис"></textarea>
+                <input  placeholder="Посилання на джерело"/>
+                <div style="width: 100%" align="right">
+                    <button class="offer-news-button">Надіслати</button>
+                </div>
             </div>
         </div>
-    </div>
+    <!--</div>-->
     <footer>
-        <div class="footer-info">
-            <div class="footer-part">
+        <div class="container footer-info">
+            <div class="col-md-6 footer-part">
                 <div>
                     <span style="font-size: 18px">Зв'язатися з нами:</span>
                 </div>
@@ -129,7 +135,7 @@
                     </table>
                 </div>
             </div>
-            <div class="footer-part">
+            <div class="col-md-6 footer-part">
                 <div>
                     <span style="font-size: 18px">Ми в соц мережах:</span>
                 </div>
@@ -158,9 +164,9 @@
             </div>
         </div>
     </footer>
+    <script src="../js/my_custom_select.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/jquery-3.3.1.min.js"></script>
-    <script src="../js/my_custom_select.js"></script>
     <script src="../js/news.js"></script>
 </body>
 </html>
